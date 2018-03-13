@@ -24,7 +24,7 @@ container.AddNewExtension<NLogExtension>();
 ```C#
 public class LoggedType
 {
-    public LoggedType(ILog log)
+    public LoggedType(ILogger log)
     {
     }
   ...
